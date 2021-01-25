@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>Trublu Docs</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/small-business.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fa fa-book fa-1x" aria-hidden="true"></i>&nbsp; Trublu Docs</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ProjectFlow.html">ProjectFlow</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="WelcomeNote_BPKTech.html" target="_blank">Welcome Note BPKTech </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="commitStep.html">Commit Steps </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-7">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="./images/Trublu-login-page.png" alt="">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-5">
+        <h1 class="font-weight-light">Project Highlights</h1>
+        <p>This project about practice management in Dental Industry</p>
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Call to Action Well -->
+    <div class="card my-5">
+      <div class="card-header bg-info text-white pl-4 text-left">
+        <h5 class="card-title">Project Highlights</h5>
+      </div>
+      <div class="card-body text-white bg-secondary">
+        <ol class="text-white m-0">
+            <li>&nbsp;&nbsp; Practice means Doctor</li>
+            <li>&nbsp;&nbsp; Member means Patient</li>
+            <li>&nbsp;&nbsp; As a Doctor, Doctor enroll for payment and other functionality for patient</li>
+            <li>&nbsp;&nbsp; Enrolling a member means: Createed a practice account</li>
+            <li>&nbsp;&nbsp; Sign up means: Doctor is creating a profile for a patient</li>
+            <li>&nbsp;&nbsp; Superadmin wont have all the features</li>
+            <li>&nbsp;&nbsp; Superadmin Logined and proceed with other user by switching the account,Supereadmin provided all the credentials to acceess the account</li>
+            <li>&nbsp;&nbsp; Download FastestVPN with the help from Praveen, to get all the features of the application </li>
+            <li>&nbsp;&nbsp; Staging Trublu Url: https://staging-app.planforhealth.com/</li>
+          </ol>
+      </div>
+    </div>
+	
+	
+	
+	
+	<!-- Content Row -->
+    <div class="row">
+      <div class="col-md-6 mb-5">
+        <div class="card h-100">
+          <div class="card-header bg-info text-white pl-4 pt-3 text-left">
+            <h5 class="card-title">Key Project Steps</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              <ol>
+                <li>&nbsp;&nbsp; Add .env file to project, member, provider, widget, lib separetly </li>
+				<li>&nbsp;&nbsp; Add .env.environment file to member </li>
+				<li>&nbsp;&nbsp; </li>
+				</ol>
+            </p>
+          </div>
+        </div>
+      </div>
+	</div>
+    <!-- Content Row -->
+    <div class="row">
+      <div class="col-md-6 mb-5">
+        <div class="card h-100">
+          <div class="card-header bg-info text-white pl-4 pt-3 text-left">
+            <h5 class="card-title">Installtion Setup Steps</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              <ol>
+                <li>&nbsp;&nbsp;Install Postgresql </li>
+                <li>&nbsp;&nbsp;Set up the connection string  </li>
+                <li>&nbsp;&nbsp;keep the credentials in .env file </li>
+                <li>&nbsp;&nbsp;5432 port of DB connection string  </li>
+                <li>&nbsp;&nbsp;Review .env files </li>
+                <li>&nbsp;&nbsp;Configure DB in .env file as example 'trublu1' db to ur db name </li>
+                <li>&nbsp;&nbsp;only 2 connection string present; 1 in prisma & 1 in api </li>
+                <li>&nbsp;&nbsp;yarn workspace api migrate </li>
+                <li>&nbsp;&nbsp; yarn workspace api develop </li>
+                <li>&nbsp;&nbsp;Remove the cache by checking in the git change: Undo the changesin 'package.json' and 'yarn-lock' </li>
+                  to be in sync with the project </li>
+                <li>&nbsp;&nbsp;Project will support on Node 12 version </li>
+                <li>&nbsp;&nbsp;Ultar Package.json and do the installation steps <br/>
+                  <code>
+                    "dependencies": {
+                      "@babel/compat-data": "=7.9.0", 
+                      "@babel/helper-compilation-targets": "=7.9.0",
+                      "@babel/helper-skip-transparent-expression-wrappers": "=7.9.0"
+                    }
+                  </code>  
+                </li>
+                <li>&nbsp;&nbsp;yarn workspace @pearly/lib develop </li>
+                <li>&nbsp;&nbsp;yarn workspace member develop </li>
+                <li>&nbsp;&nbsp;yarn workspace provider develop </li>
+                <li>&nbsp;&nbsp;yarn workspace widget develop </li>
+                <li>&nbsp;&nbsp;Sign up with bpk email id and login in localhost:3000 </li>
+              </ol>
+            </p>
+          </div>
+          <!-- <div class="card-footer">
+            <a href="#" class="btn btn-primary btn-sm">More Info</a>
+          </div> -->
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-6 mb-5">
+        <div class="card h-20">
+          <div class="card-header bg-secondary text-white pl-4 pt-3 text-left">
+            <h5 class="card-title">Setup the local Account Steps</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              <ol>
+                <li> Create a system and make superadmin, ckha3qksk0001p0tjj3b41v22 --account id : sarfaraz</li>
+                <li> Once create the plan template --> already super admin --> create a record in plan table, after copy paste from Donglin</li>
+                <li> Sign up other practice: Enroll the other practice, relating all fuctional</li>
+              </ol>
+            </p>
+          </div>
+          
+        </div>
+        <br/>
+        <div class="card h-20">
+          <div class="card-header bg-secondary text-white pl-4 pt-3 text-left">
+            <h5 class="card-title">Creating Payment Steps</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              <ol>
+                <li>&nbsp;&nbsp; <strong> Merchant Number:</strong> (Anything)</li>
+                <li>&nbsp;&nbsp; <strong> API Sandbox Key:</strong> fe58b8b8ab6e4a62bea2f989b58a9b7a</li>
+                <li>&nbsp;&nbsp; <strong> Public Key:</strong> 307a301406072a8648ce3d020106092b240303020801010c036200044df56ed5ff4b529ad42de8730a864e4ec743f714a7aee1af1bb950a4cbd005ad0315c5b42b12bc26b766e48de56f7711536264df7be8a6a34c0de6ee3a997b6fb9d4214aeba2f06e8a703b360b315cf2bb04c213e0fcf4344b00367427bbda73</li>
+              </ol>
+            </p>
+          </div>
+          
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+   
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-2 bg-info">
+    <div class="container">
+      <p class="m-0 text-center text-white"> Created in Nov 2020 By <strong><em>Sarfaraz </em></strong> </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
